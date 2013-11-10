@@ -1,24 +1,20 @@
 html{
-    background:orange;
+    background:#dedbc8;
 }
 body{
-    width:90%;
-    background:#ccc;
+    width:80%;
     margin:auto;
-    text-align:center;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
 }
 
+.header h1{
+    font-size:70px;
+    color:#0377fc;
+}
 .header{
-
-    background:black;
-    color:yellow;    
     margin-top:30px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
     height:110px;
-    padding-top:30px;
+    text-align:center;
+    margin-bottom:10px;
 }
 ul{
     margin:0px;
@@ -32,11 +28,13 @@ a{
 li{
     list-style-type:none;
     display:inline;
-    margin-right:40px;
+    margin-right:80px;
 }
 .nav{
-    background:green;
-    height:50px;
+    background:#F5350A;
+    text-align:center;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
 }
 .sidebar{
     background:white;
@@ -45,10 +43,12 @@ li{
     float:right;
 }
 .content{
-    width:69%;
+    background:#332F2F;
+    color:white;
     height:700px;
-    float:left;
-    border-left: 1px solid black;
+    border: 1px solid black;
+    padding-left:30px;
+    padding-top:20px;
 }
 footer{
     clear:both;
