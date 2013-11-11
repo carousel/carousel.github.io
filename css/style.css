@@ -7,11 +7,11 @@ body{
 }
 
 .header h1{
+    margin-top:15px;
     font-size:70px;
     color:#0377fc;
 }
 .header{
-    margin-top:30px;
     height:110px;
     text-align:center;
     margin-bottom:10px;
