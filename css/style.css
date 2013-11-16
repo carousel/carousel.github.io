@@ -36,20 +36,28 @@ li{
     border-top-right-radius:20px;
     border-top-left-radius:20px;
 }
-.sidebar{
-    background:white;
-    width:30%;
-    height:700px;
-    float:right;
-}
 .content{
+    font-family:DejaVu Sans;
+    font-size:0.8em;
     background:#332F2F;
-    color:white;
+    color:#ccc;
     height:700px;
-    border: 1px solid black;
     padding-left:30px;
     padding-top:20px;
+    
+}
+.content p{
+    margin:0;
+    text-align:left;
+
 }
 footer{
     clear:both;
+}
+ol.skills li{
+    display:list-item;
+    list-style-type:circle;
+}
+.content a{
+    color:red;
 }
