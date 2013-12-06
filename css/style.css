@@ -4,10 +4,11 @@ html{
 }
 body{
     width:80%;
-    margin:auto;
+    margin-left:20px;
 }
 
-li{
+
+.nav li{
     list-style-type:none;
     display:inline;
     margin-right:80px;
@@ -19,29 +20,16 @@ li{
     border-top-left-radius:20px;
 }
 .content{
-    font-family:DejaVu Sans;
-    font-size:0.8em;
     background:#332F2F;
     color:#ccc;
-    height:700px;
-    padding-left:30px;
     padding-top:20px;
     
 }
-.content p{
-    margin:0;
-    text-align:left;
-
+#post{
+    margin-bottom:60px;
 }
-ol.skills li{
-    display:list-item;
-    list-style-type:circle;
-}
-.content a{
-    color:red;
-}
-.content h3{
-    color:green;
+#post > div{
+    margin:30px;    
 }
 
 .header h1{

@@ -5,6 +5,7 @@
         <title>Index</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/sunburst.css" type="text/css"/>
     </head>
 
     <body>
@@ -23,27 +24,60 @@
                      <li><a href="http://carousel.github.io/vimrc">My vimrc file</a></li>
                  </ul>
             </div>
+
             <div class="content">
-                <h3>Hi. Welcome to my github page</h3>
-                <p>My name is Miro. I am a freelance web developer from BanjaLuka - Bosnia and Herzegovina.
-                My main  development stack includes  PHP (Laravel framework) and Javascript (Backbone,NodeJS). I test my applications and I write clean, documented  code with best practices involved. I am a dedicated Linux/Unix and Vim user.</p>
-                </br>
-                Also, I am very familiar with:
-            <ol class="skills">
-                 <li>C/C++ lanugages</li>
-                 <li>main programming history and paradigms</li>
-                 <li>Gitgub</li>
-                 <li> web architecture</li>
-                 <li>modern browser architecture</li>
-                 <li>bash,vim scripting</li>
-                 <li>linux environment</li>
-            </ol>
-            <p>I am avaliable for work. If you want to contact me, just send me  <a href="mailto:miroslav.trninic@gmail.com">email</a></p>
+
+                <div id="post">
+                    <div id="first">
+                    <h2>Test Post title</h2>
+                        <p>Note that views which extend a Blade layout simply override sections from the layout. Content of the layout can be included in a child view using the @parent directive in a section, allowing you to append to the contents of a layout section such as a sidebar or footer.
+
+Sometimes, such as when you are not sure if a section has been defined, you may wish to pass a default value to the @yield directive. You may pass the default value as the second argument</p>
+
+                    </div>
+                    <pre class="linenums prettyprint">
+    /*
+    *comment
+    */ 
+
+    public function __construct($methods, $uri, $action)
+    {
+        $this->uri = $uri;
+        $this->methods = (array) $methods;
+        $this->action = $this->parseAction($action);
+
+        if (isset($this->action['prefix']))
+        {
+            $this->prefix($this->action['prefix']);
+        }
+    }
+                        </pre>
+                </div>
+                <hr/>
+
+                <div id="post">
+                    <div id="second">
+                    <h2>Post title</h2>
+                        <p>Second</p>
+                    </div>
+                    <pre class="linenums prettyprint">
+                        namespace Illuminate\Facades;
+
+                        class One
+                        {
+                            
+                        }
+                    </pre>
+                </div>
+                <hr/>
             </div>
+            <a href="#" style="color:blue;float:right">Top</a>
             <footer>copyright by me</footer>
-        <script>
-            console.log("Hello gh-pages");
-        </script>
+
+            <script src="js/prettify.js"></script>
+            <script>
+                prettyPrint();
+            </script>
     </body>
 
 </html>
