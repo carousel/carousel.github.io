@@ -1,10 +1,10 @@
 
 html{
-    background:#dedbc8;
+    background:#332f2f;
 }
 body{
     width:80%;
-    margin-left:20px;
+    margin:auto;
 }
 
 
@@ -26,14 +26,14 @@ body{
     
 }
 #post{
+    width:100%;
     margin-bottom:60px;
 }
 #post > div{
-    margin:30px;    
 }
 
 .header h1{
-    color:#332F2F;
+    color:green;
     margin-top:30px;
     margin-left:60px;
 }
@@ -47,8 +47,7 @@ ul{
 }
 a{
     text-decoration:none;
-    color:#01DF01;
-    font-weight:bold;
+    color:yellow;
 
 }
 .social{
