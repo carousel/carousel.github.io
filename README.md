@@ -1,2 +1,2 @@
 <p>miroslav.trninic@gmail.com</p>
-<h2>this is my personal blog, hosted on github.com</h2>
+<h2>carousel.github.io</h2>
